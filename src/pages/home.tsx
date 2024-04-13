@@ -6,13 +6,15 @@ import { Hero } from "../components/Hero";
 import MiniTeams from "../components/MiniTeams";
 import FAQPage from "../pages/faq";
 import SponsorsPage from "../pages/sponsors";
+import Tracks from "../components/Tracks";
 
 export default function HomePage() {
   return (
     <Stack useFlexGap spacing={10}>
       <Hero />
       <MiniTeams />
-
+      <Tracks />
+      
       <Box>
         <TopBorder />
         <Box bgcolor={"primary.main"} color="white">
